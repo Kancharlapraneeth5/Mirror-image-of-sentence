@@ -1,0 +1,10 @@
+//reverse the sentence(mirror image of sentence)
+
+N=input()
+result=""
+words=N.split()
+res=words[::-1]
+for i in res:
+    result = result +" "+ i 
+result1=result.strip()
+print(result1)
